@@ -80,6 +80,7 @@ public class CardTrick {
         System.out.println("-- Cooking");
         System.out.println("-- Guild Wars 2");
         System.out.println("-- Playing bass guitar");
+        System.out.println("-- Magic the Gathering");
 
         System.out.println();
     }
