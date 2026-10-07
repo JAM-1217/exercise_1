@@ -21,7 +21,9 @@ public class CardTrick {
             card.setSuit(Card.SUITS[random.nextInt(4)]); // Random suit index 0 to 3
             hand[i] = card;
         }
-
+        for(Card card:hand){
+            System.out.println(card.getValue() + " " + card.getSuit());
+        }
         // 2. Prompt the user to pick a card ("any card")
         Scanner scanner = new Scanner(System.in);
 
